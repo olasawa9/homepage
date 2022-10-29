@@ -1,4 +1,4 @@
-console.log("Cześć!");
+console.log("Cześć! Ten kod jest juz w repozytorium Git.");
 
 let changeBackground = document.querySelector(".js-changeBackground");
 let body = document.querySelector(".body");
