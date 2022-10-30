@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coś nie coś o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Raleway:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header>
+            <h1 class="header">Aleksandra Sawa</h1>
+        </header>
+        <section class="section">
+            <nav>
+                <ul class="list">
+                    <li class="list__item"> <a class="list__link" href="#Wskrocie">W skrócie</a></li>
+                    <li class="list__item"> <a class="list__link" href="#Hobby">Hobby</a></li>
+                    <li class="list__item"> <a class="list__link" href="#Zestawtreningowy">Zestaw treningowy</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section">
+            <p>
+                <button class="section__button js-changeBackground">Włącz <span class="themeName">ciemny</span>
+                    motyw</button>
+            </p>
+
+            <img class="section__imageItem js-imageItem" width="200" src="https://i.postimg.cc/zDS1LZZ8/olasawa.jpg"
+                alt="Aleksandra Sawa">
+            <p>
+                <button class="section__button js-removeImage">Usuń zdjęcie</button>
+            </p>
+        </section>
+        <section class="section" id="Wskrócie">
+            <h2 class="section__header"> W skrócie</h2>
+            <p>Urodziłam się <span class="section__element">5 lutego 1991r. w Słupcy</span> i nic z tego nie pamiętam,
+                więc
+                wierzę,
+                że tak rzeczywiście było.</p>
+            <p>Przechodząc przez szereg etapów edukacji (wyliczam) - podstawówka, gimnazjum, liceum, studia lic.,
+                studia
+                mgr.
+                oraz wiele szkoleń z zakresu wcześniej wybranej ścieżki zawodowej- kosmetologii dotarłam do etapu,
+                który
+                nazywam
+                <strong>"Nowym rozdziałem".</strong> <br>I tak oto jestem jednym z wielu kursantów <b>YouCode</b>
+                pnących
+                się po
+                szczeblach modułowych
+                lekcji w nadzieji o lepszą, świetlaną przyszłość, co jest dla mnie <i>very excited</i> ;)
+            </p>
+        </section>
+        <section class="section" id="Hobby">
+            <h2 class="section__header">Hobby</h2>
+            <p>Na pewno jest to <em>sport</em>. Od zawsze "coś tam" trenowałam- koszykówka, siatkówka, pływanie, taniec.
+                Teraz
+                od 7 lat-
+                siłownia, a od ostatnich tygodni doszedł pool dance. </p>
+            <p>Poza sportem lubię od czasu do czasu coś namalować i nie skończyć.</p>
+        </section>
+        <section class="section">
+            <img class="section__image" width="100" src="https://i.postimg.cc/DZ13dRSQ/IMG-8673.jpg" alt="kot">
+            <img class="section__image" width="100" src="https://i.postimg.cc/zG3mPyLG/ryba.jpg" alt="ryba">
+            <img class="section__image" width="100" src="https://i.postimg.cc/sgzQYR1m/d-onie.jpg" alt="dłonie">
+        </section>
+        <section class="section" id="Zestawtreningowy">
+            <h2 class="section__header">Zestaw treningowy</h2>
+            <table class="table">
+                <caption class="table__caption">Mój przykładowy trening</caption>
+                <thead>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">ćwiczenie</th>
+                        <th class="table__cell table__cell--header" scope="col">serie</th>
+                        <th class="table__cell table__cell--header" scope="col">powtórzenia</th>
+                        <th class="table__cell table__cell--header" scope="col">obciążenie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Hip Thrust</th>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell">8-10</td>
+                        <td class="table__cell">80kg</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Dead Lift</th>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell">6-8</td>
+                        <td class="table__cell">40kg</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Bułgary</th>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell">6-8</td>
+                        <td class="table__cell">8kg</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Leg Lift</th>
+                        <td class="table__cell">4</td>
+                        <td class="table__cell">6-8</td>
+                        <td class="table__cell">25kg</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                Jeśli masz ochotę, przeczytaj
+                <a rel="noreferrer noopener" target="_blank"
+                    href="https://www.fabrykasily.pl/treningi/korzysci-i-wady-z-treningu-silowego"
+                    title="Artykuł ze strony fabrykasily opowiadający o treningu siłowym"> o treningu siłowym
+                </a>.
+            </p>
+        </section>
+    </div>
+    <footer class="footer">©Copyright by Aleksandra Sawa, wrzesień 2022
+    </footer>
+</body>
+
+</html><!--  -->
