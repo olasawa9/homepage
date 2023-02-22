@@ -16,7 +16,7 @@
 
     const deleteImage = () => {
         const imageItem = document.querySelector(".js-imageItem");
-        imageItem.classList.remove();
+        imageItem.remove();
     }
 
     const init = () => {
