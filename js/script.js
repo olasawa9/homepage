@@ -1,20 +1,32 @@
-console.log("Cześć! Ten kod jest juz w repozytorium Git.");
-
-let changeBackground = document.querySelector(".js-changeBackground");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
-let removeImage = document.querySelector(".js-removeImage");
-let imageItem = document.querySelector(".js-imageItem");
-
-changeBackground.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    if (body.classList.contains("dark")) {
-        themeName.innerText = "jasny"
-    } else {
-        themeName.innerText = "ciemny"
+{
+    const welcome = () => {
+        console.log("Cześć! Ten kod jest juz w repozytorium Git.");
     }
-})
 
-removeImage.addEventListener("click", () => {
-   imageItem.remove();
-});
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("dark");
+        if (body.classList.contains("dark")) {
+            themeName.innerText = "jasny"
+        } else {
+            themeName.innerText = "ciemny"
+        }
+    };
+
+    const deleteImage = () => {
+        const imageItem = document.querySelector(".js-imageItem");
+        imageItem.classList.remove();
+    }
+
+    const init = () => {
+        const changeBackground = document.querySelector(".js-changeBackground");
+        changeBackground.addEventListener("click", toggleBackground);
+        const removeImage = document.querySelector(".js-removeImage");
+        removeImage.addEventListener("click", deleteImage);
+        };
+
+            welcome();
+
+        init();
+}
