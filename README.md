@@ -1,4 +1,4 @@
-# Aleksandra Sawa- moja pierwsza strona
+# Aleksandra Sawa- my first site
 
 ![Ola](images/olasawa.JPG)
 
@@ -6,6 +6,16 @@
 
 https://olasawa9.github.io/homepage/
 
-## Opis strony
+## Description
 
-Strona zawiera krótki opis mnie, moich zainteresowań oraz postęp moich możliwości programowania :)
+The page contains a short description of me, my interests and the progress of my programming abilities :)
+![page gif](images/Animation.gif)
+## Technologies used in my project
+
+- HTML
+- Java Script
+- CSS
+- BEM convention
+- Normalize
+- GIT
+- Markdown
