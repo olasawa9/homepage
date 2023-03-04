@@ -12,7 +12,7 @@
 }
 
 .table__row:nth-child(even) {
-    background: rgb(227, 217, 217);
+    background: rgb(143, 137, 137);
 }
 
 .table__row:hover {
