@@ -20,13 +20,14 @@
     }
 
     const init = () => {
-        const changeBackground = document.querySelector(".js-changeBackground");
-        changeBackground.addEventListener("click", toggleBackground);
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
         const removeImage = document.querySelector(".js-removeImage");
         removeImage.addEventListener("click", deleteImage);
-        };
+        
+        welcome();
 
-            welcome();
+    };
 
-        init();
+    init();
 }
